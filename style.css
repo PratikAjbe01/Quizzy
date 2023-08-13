@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: black;
+height: 100vh;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.quizBox h1{
+    margin-bottom: 15px;
+    font-weight: 800;
+    color: #41e5ed ;
+    outline: #1c1a5e;
+}
+.quizBox{
+    height: 500px;
+    width: 600px;
+    background-color: #515fb5;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+}
+.quizblock{
+    height: 400px;
+    width: 400px;
+    background-color: #1c1a5e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 10px;
+}
+.submit button{
+    background-color:#41e5ed ;
+    color: #1c1a5e;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+.quizblock button{
+    width: 200px;
+    height: 50px;
+
+    border: none;
+    border-radius: 10px;
+}
+.quizblock p{
+    color: white;
+}
+.ansdiv{
+    height: 400px;
+    width: 400px;
+    background-color: #1c1a5e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.ansdiv button{
+    background-color:#41e5ed ;
+    color: #1c1a5e;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
